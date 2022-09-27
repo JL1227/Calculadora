@@ -1,0 +1,9 @@
+html {
+  background: rgb(37, 36, 34);
+  background: linear-gradient(
+    41deg,
+    rgba(37, 36, 34, 1) 4%,
+    rgba(255, 195, 0, 1) 96%
+  );
+  font-family: "Quicksand", sans-serif;
+}
