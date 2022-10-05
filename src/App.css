@@ -37,14 +37,21 @@ button {
   font-size: 21px;
 
   padding: 12px;
-  border-radius: 12px;
+  border-radius: 19px;
   border: none;
   background-color: #eaf4f4;
 }
 
 button:hover {
   background-color: #ced4da;
-  transition: 0.4s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #343a40;
+  transition: 0.2s;
+  color: white;
   cursor: pointer;
 }
 
@@ -56,7 +63,11 @@ button:hover {
 
 .acButton:hover {
   background-color: #ffc300;
-  transition: 0.7s;
+  transition: 0.3s;
+}
+
+.acButton:active {
+  color: black;
 }
 
 .equalButton {
@@ -67,5 +78,9 @@ button:hover {
 
 .equalButton:hover {
   background-color: #ffc300;
-  transition: 0.7s;
+  transition: 0.3s;
+}
+
+.equalButton:active {
+  color: black;
 }
